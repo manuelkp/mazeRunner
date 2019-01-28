@@ -8,9 +8,8 @@ checks if there is a path from the starting point (S) to the end (E). This is do
 by the recursive function "runTheMaze", which checks all the possible ways N,E,S,W
 along with wrapping with other side of the array if there is a way (by using
 the functions "isValidPos" and "getArrayPos").
-The recursion ends and the maze either has or hasn't got a path. If it does,
-the maze array is printed, including the path (which first has been cleared by
-unfinished routes by the functions "fixMaze" and "isNeighbour").
+The recursion ends and the maze array is printed, including the path (which first has been cleared by
+unfinished routes by the function "fixMaze").
 
 The exercise can be run by any Java IDE.
 
